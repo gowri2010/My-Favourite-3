@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background:linear-gradient(to bottom, pink, skyblue);
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+.link{
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 15px;
+}
+.link:hover{
+    background-color: blue;
+}
+a{
+    color: yellow;
+}
+html{
+    scroll-behavior: smooth; 
+}
+#profile{
+    border: 7px solid;
+    border-bottom-color: aqua;
+    border-top-color: lightblue;
+    border-left-color: lightgreen;
+    border-right-color: lime;
+    border-radius: 50%;
+    
+}
